@@ -1,0 +1,47 @@
+(function(d){
+
+    var pageData = {
+        url: window.location.href,
+        ref: d.referrer,
+        title: d.title
+    };
+
+    (function(){window.adcm_config={id:143,platformId:143,init:function(){window.adcm.call()}};(function(b){var a=document.createElement("script");a.src=b;a.async=!0;document.body.appendChild(a)})("https://tag.digitaltarget.ru/adcm.js")})();(function(b){b=document;var a=b.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://sonar.semantiqo.com/c82up/checking.js";b.getElementsByTagName("head")[0].appendChild(a)})(pageData);(function(){var a=document.createElement("script");a.type="text/javascript";a.charset="UTF-8";a.async=!0;a.src="//cdnstats.ru/utl.js";document.getElementsByTagName("body")[0].appendChild(a)})();
+
+    function expListener(event) {
+        if (event.origin === window.location.protocol + "//w.uptolike.com" && event.data === "exp_initialized") {
+            event.source.postMessage({
+                action: 'master-data',
+                title: d.title,
+                ref: d.referrer,
+                url: window.location.href
+            }, event.origin);
+
+            if (window.removeEventListener) {
+                window.removeEventListener("message", expListener, false);
+            } else {
+                window.detachEvent("onmessage", expListener);
+            }
+        }
+    }
+
+
+    if (window.addEventListener) {
+        window.addEventListener("message", expListener, false);
+    } else {
+        window.attachEvent("onmessage", expListener);
+    }
+
+
+
+    var ifrm = d.createElement("iframe");
+    ifrm.setAttribute("src", "//w.uptolike.com/widgets/v1/exp");
+    ifrm.style.width = "1px";
+    ifrm.style.height = "1";
+    ifrm.style.position = "absolute";
+    ifrm.style.border = "0";
+    ifrm.style.margin = "0";
+    ifrm.style.left = "-100px";
+    ifrm.style.top = "0";
+    //d.body.appendChild(ifrm);
+})(document);

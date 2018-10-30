@@ -1,0 +1,2738 @@
+
+
+/* Start:/local/templates/Blog/components/bitrix/system.auth.form/askUsers/style.css?14327208631094*/
+.topAuthForm{float:right;margin-top:20px;min-height:90px}.topAuthForm input.topFormUserLogin{float:left;width:135px;padding:0 10px 0 30px;height:29px;border:none;background:url(/local/templates/Blog/components/bitrix/system.auth.form/askUsers/images/userLogin.png) 10px 7px no-repeat #fff;outline:0;margin-right:10px;margin-bottom:10px}.topAuthForm input.topFormUserPWD{float:left;width:135px;padding:0 10px 0 30px;height:29px;border:none;background:url(/local/templates/Blog/components/bitrix/system.auth.form/askUsers/images/userPWD.png) 10px 7px no-repeat #fff;outline:0;margin-right:10px;margin-bottom:10px}.topAuthForm input.topFormUserSubmit{display:inline-block;height:29px;width:90px;color:#fff;background:#72ad6b;cursor:pointer;border:none;outline:0;margin-bottom:10px}.topAuthForm input[type=checkbox]+label span{margin-left:0}font.errortext{color:red;display:block;margin-top:-15px;width:460px}.topLogoutButton{border:none;color:#5fa6bd;background:0 0;text-decoration:underline;cursor:pointer}.userOnWork{color:#fff;padding:2px 10px;background:#72ad6b;font-size:12px;position:absolute;margin-left:-115px}.userOnLeave{color:#fff;padding:2px 10px;background:#e2b148;font-size:12px;position:absolute;margin-left:-85px}
+/* End */
+
+
+/* Start:/local/templates/Blog/components/bitrix/menu/blogTop/style.css?1432721687626*/
+/* Left menu*/
+ul.left-menu
+{
+	list-style:none;
+	margin:0; padding:0;
+	margin-bottom:8px;
+	position: relative; /*IE bug*/
+}
+
+ul.left-menu li
+{
+	padding: 10px 16px;
+	background:#F5F5F5 url(/local/templates/Blog/components/bitrix/menu/blogTop/images/left_menu_bg.gif) top repeat-x;
+}
+
+ul.left-menu li a
+{
+	font-size:100%;
+	color:#BC262C;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+ul.left-menu li a:visited
+{
+	color:#BC262C;
+}
+
+ul.left-menu li a:hover
+{
+	color:#BC262C;
+}
+
+
+ul.left-menu li a.selected:link, 
+ul.left-menu li a.selected:visited, 
+ul.left-menu li a.selected:active, 
+ul.left-menu li a.selected:hover
+{
+	color:#FC8D3D;
+}
+
+
+
+/* End */
+
+
+/* Start:/local/templates/Blog/components/bitrix/breadcrumb/Blogbreadcrumb/style.css?1432723748947*/
+.bx_breadcrumbs{
+    margin-bottom:15px;
+    padding-top:0px
+}
+.bx_breadcrumbs ul{
+    margin:0;
+    padding:0
+}
+.bx_breadcrumbs ul li{
+    display:inline-block;
+    line-height:20px
+}
+.bx_breadcrumbs ul li a{
+    display:block;
+    padding:0 15px;
+    background:url(/local/templates/Blog/components/bitrix/breadcrumb/Blogbreadcrumb/images/breadcrumbs_arrow.png) no-repeat center right;
+    color:#555;
+    text-decoration:none;
+    font-size:11px;
+    opacity:.5
+}
+.bx_breadcrumbs ul li:first-child a{padding-left:0}
+.bx_breadcrumbs ul li:last-child  a{background:none}
+.bx_breadcrumbs ul li a:hover{
+    text-decoration:underline;
+    line-height:20px;
+    opacity:1
+}
+.bx_breadcrumbs ul li span{
+    display:block;
+    padding:0 15px;
+    color:#aaa;
+    text-decoration:none;
+    font-size:11px
+}
+.bx_breadcrumbs,
+.bx_breadcrumbs ul li{
+    -webkit-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    -ms-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;
+    transition:all 0.3s ease;
+}
+/* End */
+
+
+/* Start:/local/templates/Blog/components/askusers/main.register/.default/style.css?146847652111976*/
+div.bx-auth-reg input.bx-auth-input {vertical-align:middle;}
+div.bx-auth-reg span.bx-auth-secure {background-color:#FFFAE3; border:1px solid #DEDBC8; padding:2px; display:inline-block; vertical-align:middle;}
+div.bx-auth-reg div.bx-auth-secure-icon {background-image:url(/local/templates/Blog/components/askusers/main.register/.default/images/sec.png); background-repeat:no-repeat; background-position:center; width:19px; height:18px;}
+div.bx-auth-reg div.bx-auth-secure-unlock {background-image:url(/local/templates/Blog/components/askusers/main.register/.default/images/sec-unlocked.png);}
+div#registr{
+	width: 500px;
+margin: 10px auto;
+}
+div#registr input[type="text"] {
+	    padding-left: 43px;
+	        width: 415px;
+}
+input[type="checkbox"] + label span{
+	width:auto !important; height:auto !important;background:none !important; margin:0px !important;
+}
+div#registr input[type="submit"]{
+	cursor: pointer;
+	width: 255px;
+	height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+}
+div#registr div.radiobt{
+	overflow: hidden;
+}
+div#registr div.Ico{
+	width: 259px;
+	height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0px;
+}
+div#registr div.blockrb{
+	float:left;
+	margin-bottom: 20px;
+	width: 180px;
+	    margin-right: 50px;
+}
+div#registr div.someInfo{
+	font-size: 12px;
+	color:#747474;
+	margin-bottom: 10px;
+}
+
+div.chabox{
+	margin-bottom: 20px;
+	    width: 405px;
+}
+div.chabox span.police{
+	    margin-left: 89px;
+}
+.assessorRegisterSteps h1{padding-top:20px}.assessorRegisterSteps .ui-tabs-nav{display:inline-block;width:100%}
+.assessorRegisterSteps .ui-tabs-nav li{display:inline-block;float:left;padding:4px 10px;margin-right:10px;font-size:13px;background:#72ad6b;outline:0}.assessorRegisterSteps .ui-tabs-nav li a{text-decoration:none;color:#fff;outline:0}.assessorRegisterSteps .ui-tabs-nav li.ui-state-active,.assessorRegisterSteps .ui-tabs-nav li.ui-state-hover{background:#CB3343}.assessorRegisterSteps .ui-tabs-nav li.ui-state-disabled{display:none;background:#f1f1f2}.assessorRegisterSteps .ui-tabs-nav li.ui-state-disabled a{color:#656874;cursor:default}.userTypeSelectBox{padding:20px 0;border-bottom:1px solid #ededed;color:#656874;font-size:18px}p.userTypeSelectBox label{color:#656874!important;font-size:14px!important}p.userTypeSelectBox label span{margin:0 10px 0 20px!important}.assessorRegisterLeftCol{width:365px;padding-right:35px;float:left;margin-top:25px}.assessorRegisterLeftCol label{display:block;padding:20px 0 5px}.assessorRegisterLeftCol label.error{padding:0;color:#dd6565;font-size:13px;position:absolute}span.starrequired{color:#6fa768;font-size:18px;padding:0 10px}.assessorRegisterLeftCol input[type=text]{width:280px;padding:5px 10px;border:1px solid #ededed;outline:0}.assessorRegisterLeftCol input[type=text].error{border:1px solid #dd6565}.assessorRegisterLeftCol .assessorRegisterUserConfirmation label{color:#656874}.assessorRegisterLeftCol .assessorRegisterUserConfirmation label span{float:left;margin:20px 10px}.assessorRegisterRightCol{width:480px;padding:20px 30px;float:right;margin-top:25px;background:#f4f9fb}.assessorRegisterRightCol p{padding-bottom:10px;font-size:13px}.assessorRegisterRightCol p.crTitle{font-size:18px}.assessorRegisterRightCol ul{margin-left:20px}.assessorRegisterRightCol ul li{margin-bottom:10px;list-style:disc}.assessorUserAgreements{position:fixed;z-index:3000;width:100%;height:100%;top:0;left:0;background:rgba(0,0,0,.3);display:none}.assessorUserAgreementsTitle{font-size:18px;padding-bottom:20px;color:#dd6565;display:none}.assessorUserAgreementsText{position:absolute;z-index:3100;width:780px;padding:30px;top:100px;left:50%;margin-left:-410px;background:#fff}.assessorUserAgreementsTextWrap{border:1px solid #e7e8ea}.assessorUserAgreementsClose{position:absolute;display:inline-block;width:16px;height:16px;margin-left:785px;margin-top:-20px;cursor:pointer;background:url(/local/templates/Blog/components/askusers/main.register/.default/images/qsClose.png) top left no-repeat}.assessorUserAgreementsDA{height:30px;padding-top:20px}.assessorUserAgreementsDA .assessorUserAgreementsAgree{display:inline-block;height:27px;line-height:27px;font-size:14px;padding:0 10px;float:left;cursor:pointer;color:#fff;text-align:center}.assessorUserAgreementsDA .assessorUserAgreementsDecline{display:inline-block;height:27px;line-height:27px;font-size:14px;padding:0 10px;float:right;cursor:pointer;color:#fff;text-align:center}.grayLine{width:100%;height:1px;margin:20px 0;background:#e7e8ea}.assessorUserRegistrationEnd{height:50px}#register_submit_button_old,.goToNextStep{float:right;display:inline-block;height:37px;line-height:37px;padding:0 30px;color:#fff;text-align:center;font-size:14px;background:#72ad6b;cursor:pointer;border:none;outline:0}.registrationMailSent{padding:10px;background:#f4f9fb}.assessorRegisterLeftCol2{width:640px;float:left}.assessorHobby,.assessorKnowThemes,.assessorNotKnowThemes,.assessorOtherProfession{height:28px;margin-bottom:20px;line-height:28px}.assessorHobby .select2-container,.assessorKnowThemes .select2-container,.assessorNotKnowThemes .select2-container,.assessorOtherProfession .select2-container{float:left}.addMoreDocuments,.addMoreHobby,.addMoreKnowThemes,.addMoreNotKnowThemes,.addMoreProfession,.addMoreSocNet{display:inline-block;width:16px;height:16px;background:url(/local/templates/Blog/components/askusers/main.register/.default/images/addMore.png) center center no-repeat;vertical-align:middle;cursor:pointer;margin:0 10px}.delMoreDocuments,.delMoreHobby,.delMoreKnowThemes,.delMoreNotKnowThemes,.delMoreProfession,.delMoreSocNet{display:inline-block;width:16px;height:16px;background:url(/local/templates/Blog/components/askusers/main.register/.default/images/removeThis.png) center center no-repeat;vertical-align:middle;cursor:pointer}.minMaxDescription{color:#b8b9bd;font-size:12px;margin-top:20px}.stepError{font-size:18px;margin-top:20px;color:#dd6565;display:none}#step_5 .assessorRegisterLeftCol2 label{color:#656874;font-size:13px}.assessorInternetLevel>div{margin:15px 0}.assessorInternetLevel .showLevelDesc{display:inline-block;width:16px;height:16px;background:url(/local/templates/Blog/components/askusers/main.register/.default/images/deskShow.png) center no-repeat;cursor:pointer;vertical-align:middle;margin-left:20px}.assessorInternetLevel .levelDesc{display:none;width:500px;border:2px solid #78B2CA;padding:10px;margin:10px 0}#step_6 table tr td{vertical-align:top;padding-bottom:30px}#step_6 table tr td .assessorRegisterRightCol2{margin-top:0}#step_6 table tr td .assessorRegisterRightCol2 p{padding-bottom:10px}#step_6 table tr td>span{font-size:18px}#step_6 table tr td input[type=radio]+label{color:#656874;font-size:13px;margin-right:30px}.assessorBirthday input[type=text],.assessorSocNet input[type=text],.assessorTown input[type=text]{width:220px;height:27px;padding:0 10px;border:1px solid #ededed;outline:0}.assessorAboutMe textarea{width:350px;height:180px;padding:10px;border:1px solid #ededed;outline:0;resize:vertical}.assessorSocNet p{padding-bottom:20px}.assessorDocuments p{padding-bottom:10px}.assessorRegisterRightCol2{width:240px;padding:20px 30px;float:right;margin-top:25px;background:#f4f9fb}p.labelFor{display:block;padding:20px 0 5px;font-size:18px}.assessorRegisterRightCol2 p{padding-bottom:10px;font-size:13px}.assessorRegisterRightCol2 p.crTitle{font-size:18px}.assessorRegisterRightCol2 ul{margin-left:20px}.assessorRegisterRightCol2 ul li{margin-bottom:10px;list-style:disc}.ui-helper-hidden-accessible{display:none}.ui-autocomplete{width:238px;border:1px solid #ededed;background:#fff;max-height:200px;overflow-y:auto;overflow-x:hidden;font-size:13px}.ui-autocomplete li{padding:2px 5px}.ui-autocomplete li:hover{cursor:pointer;background:#f4f9fb}.ui-autocomplete li a{color:#656874}.ui-autocomplete li a span{color:#5fa6bd;text-decoration:underline}div.registerErrors{padding:20px;margin-bottom:20px;background:#ffebeb;border:1px solid #a00}div.registerErrors font.errortext{color:#a00;display:inline;margin-top:0;width:100%}
+
+.userTypeSelectBox{padding:20px 0;border-bottom:1px solid #ededed;color:#656874;font-size:18px}p.userTypeSelectBox label{color:#656874!important;font-size:14px!important}p.userTypeSelectBox label span{margin:0 10px 0 20px!important}.clientRegisterLeftCol{width:365px;padding-right:35px;float:left;margin-top:25px}.clientRegisterLeftCol label{display:block;padding:20px 0 5px}.clientRegisterLeftCol label.error{padding:0;color:#dd6565;font-size:13px;position:absolute}span.starrequired{color:#6fa768;font-size:18px;padding:0 10px}.clientRegisterLeftCol input[type=text]{width:280px;padding:5px 10px;border:1px solid #ededed;outline:0}.clientRegisterLeftCol input[type=text].error{border:1px solid #dd6565}.clientRegisterLeftCol .clientRegisterUserConfirmation label{color:#656874}.clientRegisterLeftCol .clientRegisterUserConfirmation label span{float:left;margin:20px 10px}.clientRegisterRightCol{width:480px;padding:20px 30px;float:right;margin-top:25px;background:#f4f9fb}.clientRegisterRightCol p{padding-bottom:20px;font-size:13px}.clientRegisterRightCol p.crTitle{font-size:18px}.clientRegisterRightCol ul{margin-left:20px}.clientRegisterRightCol ul li{margin-bottom:20px;list-style:disc}.clientUserAgreements{position:fixed;z-index:3000;width:100%;height:100%;top:0;left:0;background:rgba(0,0,0,.3);display:none}.clientUserAgreementsTitle{font-size:18px;padding-bottom:20px;color:#dd6565;display:none}.clientUserAgreementsText{position:absolute;z-index:3100;width:780px;padding:30px;top:100px;left:50%;margin-left:-410px;background:#fff}.clientUserAgreementsTextWrap{border:1px solid #e7e8ea}.clientUserAgreementsClose{position:absolute;display:inline-block;width:16px;height:16px;margin-left:785px;margin-top:-20px;cursor:pointer;background:url(/local/templates/Blog/components/askusers/main.register/.default/images/qsClose.png) top left no-repeat}.clientUserAgreementsDA{height:30px;padding-top:20px}.clientUserAgreementsDA .clientUserAgreementsAgree{display:inline-block;height:27px;line-height:27px;font-size:14px;padding:0 10px;float:left;cursor:pointer;color:#fff;text-align:center}.clientUserAgreementsDA .clientUserAgreementsDecline{display:inline-block;height:27px;line-height:27px;font-size:14px;padding:0 10px;float:right;cursor:pointer;color:#fff;text-align:center}.grayLine{width:100%;height:1px;margin:20px 0;background:#e7e8ea}.clientUserRegistrationEnd{height:50px}#register_submit_button_old{float:right;display:inline-block;height:37px;line-height:37px;padding:0 10px;color:#fff;text-align:center;font-size:14px;cursor:pointer;border:none;outline:0}.registrationMailSent{padding:10px;background:#f4f9fb}div.registerErrors{padding:20px;margin-bottom:20px;background:#ffebeb;border:1px solid #a00}div.registerErrors font.errortext{color:#a00;display:inline;margin-top:0;width:100%}
+
+
+.confUserAgreements {
+    position: fixed;
+    z-index: 3000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .3);
+    display: none
+}
+
+.confUserAgreementsTitle {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #dd6565;
+    display: none
+}
+
+.confUserAgreementsText {
+    position: absolute;
+    z-index: 3100;
+    width: 780px;
+    padding: 30px;
+    top: 100px;
+    left: 50%;
+    margin-left: -410px;
+    background: #fff
+}
+
+
+.confUserAgreementsClose {
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 785px;
+    margin-top: -20px;
+    cursor: pointer;
+    background: url(/local/templates/askusers/components/bitrix/main.profile/client/images/qsClose.png) top left no-repeat
+}
+
+.confUserAgreementsDA {
+    height: 30px;
+    padding-top: 20px
+}
+
+.confUserAgreementsDA .confUserAgreementsAgree {
+    display: inline-block;
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    padding: 0 10px;
+    background: url(/local/templates/askusers/components/bitrix/main.profile/client/images/addSelQuest.png) top left repeat-x;
+    float: left;
+    cursor: pointer;
+    color: #fff;
+    text-align: center
+}
+
+.confUserAgreementsDA .confUserAgreementsDecline {
+    display: inline-block;
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    padding: 0 10px;
+    background: url(/local/templates/askusers/components/bitrix/main.profile/client/images/delSelQuest.png) top left repeat-x;
+    float: right;
+    s cursor: pointer;
+    color: #fff;
+    text-align: center
+}
+/* End */
+
+
+/* Start:/local/templates/Blog/styles.css?148070504872073*/
+@charset "UTF-8";
+/* line 1, C:/Users/guban/Documents/askusers_blog/styles.scss */
+html {
+  color: #000;
+  background: #FFF; }
+
+/* line 6, C:/Users/guban/Documents/askusers_blog/styles.scss */
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 10, C:/Users/guban/Documents/askusers_blog/styles.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 15, C:/Users/guban/Documents/askusers_blog/styles.scss */
+fieldset, img {
+  border: 0; }
+
+/* line 19, C:/Users/guban/Documents/askusers_blog/styles.scss */
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: 400; }
+
+/* line 24, C:/Users/guban/Documents/askusers_blog/styles.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 28, C:/Users/guban/Documents/askusers_blog/styles.scss */
+caption, th {
+  text-align: left; }
+
+/* line 32, C:/Users/guban/Documents/askusers_blog/styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: 400; }
+
+/* line 37, C:/Users/guban/Documents/askusers_blog/styles.scss */
+q:after, q:before {
+  content: ''; }
+
+/* line 41, C:/Users/guban/Documents/askusers_blog/styles.scss */
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+/* line 46, C:/Users/guban/Documents/askusers_blog/styles.scss */
+sup {
+  vertical-align: text-top; }
+
+/* line 50, C:/Users/guban/Documents/askusers_blog/styles.scss */
+sub {
+  vertical-align: text-bottom; }
+
+/* line 54, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+/* line 59, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input[type=text]:focus, input[type=password]:focus {
+  outline-color: #4d90fe !important;
+  outline-offset: -2px !important;
+  outline-style: auto !important;
+  outline-width: 1px !important; }
+
+/* line 62, C:/Users/guban/Documents/askusers_blog/styles.scss */
+legend {
+  color: #000; }
+
+/* line 66, C:/Users/guban/Documents/askusers_blog/styles.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+/* line 73, C:/Users/guban/Documents/askusers_blog/styles.scss */
+body {
+  width: 100%;
+  max-width: 100%;
+  min-width: 500px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  position: relative;
+  font-family: Open Sans, Tahoma;
+  color: #656874;
+  font-size: 14px;
+  background: #f9f9f9; }
+
+/* line 87, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a {
+  color: #78a4bb; }
+
+/* line 90, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 93, C:/Users/guban/Documents/askusers_blog/styles.scss */
+h1 {
+  font-size: 30px; }
+
+/* line 97, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.header {
+  height: 110px;
+  width: 100%;
+  padding: 20px 0px;
+  background: #3a3c42;
+  position: relative; }
+
+/* line 105, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.logotype {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  float: left;
+  display: block;
+  width: 200px;
+  height: 60px;
+  margin-bottom: 10px; }
+
+/* line 116, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topAuthForm {
+  line-height: 25px;
+  float: right;
+  box-sizing: border-box;
+  min-height: 150px !important;
+  margin-top: -20px !important;
+  padding: 20px 40px;
+  border-right: 1px solid #28292A;
+  border-left: 1px solid #28292A;
+  background: #44464C none repeat scroll 0% 0%;
+  box-shadow: 1px 0px 0px #4F4E4E inset, -1px 0px 0px #4F4E4E inset; }
+
+/* line 128, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topAuthForm.noborder {
+  border: none;
+  background: none;
+  box-shadow: none; }
+
+/* line 133, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.login {
+  /*width: 600px;*/
+  height: 71px;
+  float: right; }
+
+/* line 134, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.login p {
+  float: right;
+  margin-top: 35px;
+  padding-left: 20px;
+  font-size: 12px;
+  text-decoration: underline;
+  background: url(/local/templates/landing/images/login.png) left no-repeat;
+  color: #fff;
+  cursor: pointer; }
+
+/* line 135, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.login span.error {
+  float: right;
+  color: #CB3343;
+  font-size: 14px; }
+
+/* line 135, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginForm {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.5); }
+
+/* line 136, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginForm .loginWrapper {
+  position: fixed;
+  width: 470px;
+  z-index: 101;
+  top: 100px;
+  left: 50%;
+  margin-left: -235px;
+  background: #FFF; }
+
+/* line 137, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginForm .loginClose {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-left: 470px;
+  background: url(/local/templates/landing/images/close.png) top left no-repeat;
+  cursor: pointer; }
+
+/* line 138, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginForm .loginContent {
+  padding: 20px; }
+
+/* line 139, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginForm .loginHelper {
+  padding: 20px;
+  background: #f5f5ed;
+  font-size: 14px; }
+
+/* line 140, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginForm a {
+  color: #78a4bb; }
+
+/* line 141, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginForm input[type=checkbox] {
+  display: inline; }
+
+/* line 142, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginForm input[type=checkbox] + label {
+  color: #000;
+  font-size: 16px; }
+
+/* line 146, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginForm noindex {
+  font-size: 16px; }
+
+/* line 149, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.btn {
+  display: block;
+  width: 235px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  border: medium none;
+  outline: 0px none; }
+
+/* line 163, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginForm input[type=text] {
+  width: 368px;
+  height: 35px;
+  padding: 0 10px 0 50px;
+  margin-bottom: 20px;
+  border: 1px solid #e8e8e8;
+  outline: 0;
+  background: url(/local/templates/landing/images/loginBG.png) left center no-repeat; }
+
+/* line 164, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginForm input[type=password] {
+  width: 368px;
+  height: 35px;
+  padding: 0 10px 0 50px;
+  margin-bottom: 20px;
+  border: 1px solid #e8e8e8;
+  outline: 0;
+  background: url(/local/templates/landing/images/pwdBG.png) left center no-repeat; }
+
+/* line 165, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.btnRed {
+  background: #CB3343;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+
+/* line 166, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.btnRed:hover {
+  background: #AD1D28; }
+
+/* line 167, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.userOnWork {
+  margin-top: 80px;
+  margin-left: 0px !important; }
+
+/* line 171, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.loginuserinfo:before {
+  position: absolute;
+  width: 25px;
+  height: 26px;
+  margin-top: 3px;
+  margin-left: -35px;
+  content: close-quote;
+  background: url("/local/templates/askusers/img/icon_users.png") no-repeat; }
+
+/* line 180, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu {
+  height: 34px;
+  padding-left: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 107px; }
+
+/* line 191, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul {
+  display: inline-block; }
+
+/* line 195, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul li.activeTMItemm {
+  /* IE6-9 */
+  border-color: #94c18f #5d9856 #5d9856;
+  background: #79b172;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #79b172 0%, #79b172 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #79b172), color-stop(100%, #6ca466));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #79b172 0%, #6ca466 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #79b172 0%, #6ca466 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #79b172 0%, #6ca466 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #79b172 0%, #6ca466 100%);
+  box-shadow: 0 3px 0 #5d9856, inset 0 1px 2px #94c18f;
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79b172', endColorstr='#6ca466', GradientType=1); }
+
+/* line 224, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul li.activeTMItemm:hover {
+  /* IE6-9 */
+  border-color: #94c18f #5d9856 #5d9856;
+  background: #79b172;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #79b172 0%, #79b172 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #79b172), color-stop(100%, #6ca466));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #79b172 0%, #6ca466 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #79b172 0%, #6ca466 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #79b172 0%, #6ca466 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #79b172 0%, #6ca466 100%);
+  box-shadow: 0 3px 0 #5d9856, inset 0 1px 2px #94c18f;
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79b172', endColorstr='#6ca466', GradientType=1); }
+
+/* line 253, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul li:hover {
+  background: #edf2ec;
+  /* Old browsers */
+  box-shadow: 0 3px 0 #d6d6d6; }
+
+/* line 260, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul li:hover a {
+  color: #333; }
+
+/* line 265, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul li.activeTMItemm a,
+.topMenu ul li.activeTMItemm:hover a {
+  color: #fff; }
+
+/* line 269, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul li {
+  line-height: 40px;
+  display: inline-block;
+  float: left;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px 5px 0 0; }
+
+/* line 278, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff; }
+
+/* line 287, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.content {
+  background: #f9f9f9;
+  padding-top: 30px;
+  padding-bottom: 100px; }
+
+/* line 293, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.footer {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #3a3c42; }
+
+/* line 302, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.wrapper {
+  width: 100%;
+  max-width: 985px;
+  padding: 0 0px;
+  margin: 0 auto;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 311, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.fl {
+  float: left; }
+
+/* line 315, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.fr {
+  float: right; }
+
+/* line 319, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.clear {
+  clear: both; }
+
+/* line 323, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.megaspacer {
+  clear: both;
+  width: 100%;
+  height: 10px; }
+
+/* line 329, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input[type=checkbox] {
+  display: none; }
+
+/* line 333, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input[type=checkbox] + label {
+  color: #f2f2f2;
+  font-size: 14px; }
+
+/* line 338, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input[type=checkbox] + label span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 5px;
+  vertical-align: middle;
+  background: url(/local/templates/Blog/img/rcs.png) 0px -16px no-repeat;
+  cursor: pointer; }
+
+/* line 348, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input[type=checkbox]:checked + label span {
+  background: url(/local/templates/Blog/img/rcs.png) 0px -32px no-repeat; }
+
+/* line 352, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input[type=checkbox]:disabled + label span {
+  background: url(/local/templates/Blog/img/rcs.png) 0px 0px no-repeat; }
+
+/* line 356, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input[type=radio] {
+  display: none; }
+
+/* line 360, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input[type=radio] + label {
+  color: #f2f2f2;
+  cursor: pointer;
+  font-size: 18px; }
+
+/* line 366, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input[type=radio] + label span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: url(/local/templates/Blog/img/rcs.png) -16px -16px no-repeat;
+  cursor: pointer; }
+
+/* line 376, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input[type=radio]:checked + label span {
+  background: url(/local/templates/Blog/img/rcs.png) -16px -32px no-repeat; }
+
+/* line 380, C:/Users/guban/Documents/askusers_blog/styles.scss */
+input[type=radio]:disabled + label span {
+  background: url(/local/templates/Blog/img/rcs.png) -16px 0px no-repeat; }
+
+/* line 384, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo {
+  width: 956px;
+  border: 2px solid #c1dce5;
+  background: #fff;
+  position: fixed;
+  z-index: 2;
+  top: 100px;
+  left: 50%;
+  margin-left: -480px; }
+
+/* line 395, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoLeftCol {
+  float: left;
+  width: 175px;
+  padding: 20px;
+  background: #f4f9fb; }
+
+/* line 402, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoLeftCol p {
+  font-size: 11px; }
+
+/* line 406, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoLeftCol p span {
+  font-weight: 700; }
+
+/* line 410, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoRightCol {
+  float: right;
+  width: 700px;
+  padding: 20px; }
+
+/* line 416, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoWL {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 148px; }
+
+/* line 422, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoLogo {
+  vertical-align: top; }
+
+/* line 426, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoRating {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 5px;
+  position: relative;
+  margin-top: -25px;
+  font-size: 11px; }
+
+/* line 437, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoRating span {
+  float: right;
+  font-size: 20px; }
+
+/* line 442, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoRating span.ratingPlus {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("/local/templates/Blog/img/rp.png") no-repeat center;
+  cursor: pointer; }
+
+/* line 450, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoRating span.ratingMinus {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("/local/templates/Blog/img/rm.png") no-repeat center;
+  cursor: pointer; }
+
+/* line 458, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoName {
+  font-size: 18px;
+  padding-bottom: 15px; }
+
+/* line 463, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoName span.userGenderFemale, .popUpUserInfo .userInfoName span.userGenderMale {
+  color: #fff;
+  font-weight: 700;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 10px; }
+
+/* line 474, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoName span.userGenderMale {
+  background: #78a4bb; }
+
+/* line 478, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoName span.userGenderFemale {
+  background: #CB3343; }
+
+/* line 482, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoName span.userIsOnline {
+  float: right;
+  color: #72ad6b; }
+
+/* line 487, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoProfession {
+  width: 340px;
+  padding-right: 10px;
+  float: left; }
+
+/* line 493, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoHobby {
+  width: 340px;
+  padding-left: 10px;
+  float: left; }
+
+/* line 499, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoKnow {
+  width: 340px;
+  padding-right: 10px;
+  float: left; }
+
+/* line 505, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoNotKnow {
+  width: 340px;
+  padding-left: 10px;
+  float: left; }
+
+/* line 511, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoAbout p, .popUpUserInfo .userInfoHobby p, .popUpUserInfo .userInfoKnow p, .popUpUserInfo .userInfoNotKnow p, .popUpUserInfo .userInfoProfession p {
+  font-size: 12px;
+  padding-bottom: 10px; }
+
+/* line 516, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoAbout span, .popUpUserInfo .userInfoHobby span, .popUpUserInfo .userInfoKnow span, .popUpUserInfo .userInfoNotKnow span, .popUpUserInfo .userInfoProfession span {
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 10px; }
+
+/* line 522, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfo .userInfoProfession p span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #679f62; }
+
+/* line 528, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.popUpUserInfoClose {
+  background: url(/local/templates/Blog/img/closeinfo.png) top left no-repeat;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  position: fixed;
+  left: 50%;
+  margin-left: 460px;
+  margin-top: 5px; }
+
+/* line 539, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.assessorAutoReplaced {
+  display: inline-block;
+  background: url(/local/templates/askusers/img/tasksDetailInfoInRechange.png) top left no-repeat;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+
+/* line 547, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.copyLeft {
+  float: left; }
+
+/* line 551, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.bottomMenu {
+  float: right; }
+
+/* line 555, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.bottomMenu li {
+  float: left;
+  padding: 0 10px; }
+
+/* line 560, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.social {
+  margin: 20px 0 15px 200px;
+  float: left; }
+
+/* line 565, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.financeSubmenuTop li {
+  display: inline-block;
+  float: left;
+  padding-right: 10px;
+  outline: 0; }
+
+/* line 572, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.financeSubmenuTop li a {
+  text-decoration: none;
+  outline: 0; }
+
+/* line 577, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.financeSubmenuTop li.active a {
+  text-decoration: underline; }
+
+/* line 580, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.topAuthForm {
+  margin-top: 0px;
+  min-height: 0px; }
+
+/* line 584, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog {
+  position: relative;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 589, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BlogContent {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%; }
+
+/* line 596, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BlogContent div.leftpart {
+  width: 650px;
+  float: left;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 602, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart {
+  float: right;
+  width: 280px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 608, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog {
+  margin-bottom: 25px;
+  color: #545454;
+  display: table;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px dashed #eaeaea; }
+
+/* line 616, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.leftBlock {
+  float: left; }
+
+/* line 620, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.leftBlock div.previmg {
+  margin-bottom: 10px;
+  width: 150px; }
+
+/* line 624, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.leftBlock div.previmg img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+
+/* line 634, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.leftBlock div.previmg a:hover img {
+  opacity: 0.7; }
+
+/* line 637, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.InfoBlock {
+  padding-left: 180px;
+  line-height: 24px; }
+
+/* line 641, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.InfoBlock span.h2 {
+  display: block;
+  font-size: 17px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #4c91b1; }
+
+/* line 648, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.clear {
+  clear: both;
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  font-size: 0;
+  margin: 0px;
+  padding: 0px; }
+
+/* line 658, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.bottomh2Block {
+  margin-bottom: 15px; }
+
+/* line 661, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.bottomh2Block div {
+  display: inline-block; }
+
+/* line 664, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.moreread {
+  margin-left: auto;
+  background: #78a4bb;
+  width: 190px;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 10px;
+  height: 30px;
+  right: 0; }
+
+/* line 676, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.moreread a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 4px 10px;
+  font-size: 14px;
+  color: #f9f9f9;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+/* line 687, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.moreread:hover {
+  background: #537384; }
+
+/* line 690, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.reiting, div.BoxBlog div.comment, div.BoxBlog div.watch {
+  margin-bottom: 10px; }
+
+/* line 693, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.comment:before {
+  content: "";
+  display: block;
+  float: left;
+  margin-right: 13px;
+  margin-top: 3px;
+  background: url(/local/templates/Blog/./img/coment.png) no-repeat;
+  background-size: 19px 17px;
+  width: 19px;
+  height: 17px; }
+
+/* line 704, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.watch:before {
+  content: "";
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-top: 3px;
+  background: url(/local/templates/Blog/./img/brows.gif) no-repeat;
+  background-size: 23px 15px;
+  width: 23px;
+  height: 15px; }
+
+/* line 715, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.watch span {
+  margin-right: 8px; }
+
+/* line 718, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.comment span {
+  margin-right: 8px; }
+
+/* line 721, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.bottomh2Block {
+  font-size: 12px; }
+
+/* line 724, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.bottomh2Block div.autor, div.BoxBlog div.bottomh2Block div.date {
+  margin-right: 10px; }
+
+/* line 727, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.bottomh2Block div.autor:before {
+  content: "";
+  display: block;
+  float: left;
+  margin-right: 6px;
+  margin-top: 4px;
+  background: url(/local/templates/Blog/./img/autor.gif) no-repeat;
+  background-size: 13px 14px;
+  width: 13px;
+  height: 14px; }
+
+/* line 738, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.bottomh2Block div.date:before {
+  content: "";
+  display: block;
+  float: left;
+  margin-right: 6px;
+  margin-top: 4px;
+  background: url(/local/templates/Blog/./img/clock.gif) no-repeat;
+  background-size: 13px 13px;
+  width: 13px;
+  height: 13px; }
+
+/* line 749, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.BoxBlog div.bottomh2Block div.rubric:before {
+  content: "";
+  display: block;
+  float: left;
+  margin-right: 6px;
+  margin-top: 4px;
+  background: url(/local/templates/Blog/./img/rubric.gif) no-repeat;
+  background-size: 10px 14px;
+  width: 10px;
+  height: 14px; }
+
+/* line 760, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.listRubric p.title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px; }
+
+/* line 766, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.listRubric .bx_sitemap {
+  margin-bottom: 0px; }
+
+/* line 769, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.listRubric .bx_sitemap ul li {
+  padding-left: 15px;
+  margin-bottom: 10px; }
+
+/* line 773, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.listRubric .bx_sitemap ul li:before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-left: -15px;
+  margin-right: 10px;
+  background: #eaecee; }
+
+/* line 783, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.listRubric .bx_sitemap ul li a {
+  color: #86afd1; }
+
+/* line 786, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.listRubric .bx_sitemap ul li a:hover {
+  text-decoration: none; }
+
+/* line 789, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.listRubric, div.Blog div.rightpart div.vk, div.Blog div.rightpart div.fk, div.Blog div.rightpart div.rss, div.Blog div.rightpart div.rss2, div.Blog div.rightpart div.popular, div.Blog div.rightpart div.search {
+  margin-bottom: 20px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 280px; }
+
+/* line 795, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.vk p.title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px; }
+
+/* line 801, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.vk div.blocksoc a {
+  position: relative;
+  color: #86afd1;
+  padding: 18px 0px;
+  padding-left: 40px; }
+
+/* line 807, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.vk div.blocksoc a:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  left: 0px;
+  top: 15px; }
+
+/* line 816, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.vk div.blocksoc a.vk:before {
+  background: url(/local/templates/Blog/./img/vk.png) no-repeat; }
+
+/* line 819, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.vk div.blocksoc a.fb:before {
+  background: url(/local/templates/Blog/./img/fb.png) no-repeat; }
+
+/* line 822, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.vk div.blocksoc a.yt:before {
+  background: url(/local/templates/Blog/./img/yt.png) no-repeat; }
+
+/* line 825, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.vk div.blocksoc a.tw:before {
+  background: url(/local/templates/Blog/./img/Tw.png) no-repeat; }
+
+/* line 828, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.vk div.blocksoc {
+  margin-bottom: 15px;
+  padding: 6px 0px; }
+
+/* line 834, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage p {
+  color: #000; }
+
+/* line 837, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.rss {
+  padding: 15px 15px;
+  background: #6fa668 url(/local/templates/Blog/./img/rssimg.png) no-repeat;
+  background-position: 15px 15px;
+  padding-right: 6px; }
+
+/* line 843, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.rss2 {
+  padding: 15px 15px;
+  background: #6fa668 url(/local/templates/Blog/./img/rssimg2.png) no-repeat;
+  background-position: 15px 15px;
+  padding-right: 10px; }
+
+div.Blog div.rightpart div.rss_addrres_exist, div.Blog div.rightpart div.rss_ok {
+  display: none;
+  background: #cb3343;
+  position: absolute;
+  width: 280px;
+  height: 168px;
+  text-align: center;
+  top: 50px;
+  padding: 50px 0px 10px;
+  color: #fff; }
+
+div.Blog div.rightpart div.rss_addrres_exist p {
+  padding: 10px; }
+
+div.Blog div.rightpart div.rss_addrres_exist a {
+  color: #fff; }
+
+div.Blog div.rightpart div.rss_ok {
+  background: #3a3c42; }
+
+div.Blog div.rightpart div.rss_ok p {
+  padding: 10px; }
+
+/* line 849, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.rss p {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 20px;
+  padding-left: 70px;
+  min-height: 80px; }
+
+/* line 856, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.rss2 p {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 10px;
+  padding-left: 70px;
+  min-height: 80px; }
+
+/* line 863, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.rss a.tryReg {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  height: 50px;
+  width: 250px;
+  padding: 15px 10px;
+  background: #cb3343; }
+
+/* line 876, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.rss a:hover {
+  background: #8C0715; }
+
+/* line 879, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.rss2 input[type=text] {
+  display: block;
+  width: 250px;
+  height: 30px;
+  padding: 5px 15px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 10px; }
+
+/* line 888, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.rss2 input[type=submit] {
+  cursor: pointer;
+  border: none;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  height: 50px;
+  width: 250px;
+  padding: 15px 10px;
+  background: #cb3343;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 903, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.rss2 input[type=submit]:hover {
+  background: #8C0715; }
+
+/* line 906, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.hotBlock {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px 20px;
+  background: #e2ece1;
+  margin-bottom: 10px;
+  line-height: 24px; }
+
+/* line 914, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.hotline {
+  border-bottom: 1px dashed #eaeaea;
+  margin-bottom: 20px; }
+
+/* line 918, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.leftpart h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #383a40; }
+
+/* line 923, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blog h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #383a40; }
+
+/* line 928, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.pager {
+  float: left;
+  display: table;
+  margin-left: 245px;
+  margin-bottom: 20px; }
+
+/* line 934, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.pager p, div.pager a {
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  padding: 3px 0px;
+  display: inline-block;
+  color: #2b2b2b;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 946, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.pager a:hover {
+  background: #ebebeb; }
+
+/* line 949, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.pager p.act {
+  background: #78a4bb;
+  color: #fff; }
+
+/* line 953, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.popular .tabs {
+  position: relative;
+  margin: 0 auto; }
+
+/* line 957, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.popular .tabs label {
+  display: inline-block;
+  font-size: 14px;
+  color: #9f9f9f;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer; }
+
+/* line 966, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.popular .tabs input {
+  position: absolute;
+  left: -9999px; }
+
+/* line 973, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.popular #tab_1:checked ~ #tab_l1,
+div.Blog div.rightpart div.popular #tab_2:checked ~ #tab_l2,
+div.Blog div.rightpart div.popular #tab_3:checked ~ #tab_l3 {
+  color: #2a2a2a;
+  z-index: 3; }
+
+/* line 978, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.popular .tabs_cont {
+  position: relative;
+  z-index: 2;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 0px; }
+
+/* line 985, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.popular .tabs_cont ul li {
+  padding-left: 25px;
+  margin-bottom: 10px; }
+
+/* line 989, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.popular .tabs_cont ul li:before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-left: -25px;
+  margin-top: 2px;
+  background: #eaecee; }
+
+/* line 999, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.popular .tabs_cont ul li a {
+  color: #86afd1; }
+
+/* line 1002, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.popular .tabs_cont ul li a:hover {
+  text-decoration: none; }
+
+/* line 1005, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.popular .tabs_cont > div {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  opacity: 0;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out; }
+
+/* line 1016, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Blog div.rightpart div.popular #tab_1:checked ~ .tabs_cont #tab_c1,
+div.Blog div.rightpart div.popular #tab_2:checked ~ .tabs_cont #tab_c2,
+div.Blog div.rightpart div.popular #tab_3:checked ~ .tabs_cont #tab_c3 {
+  position: static;
+  left: 0;
+  opacity: 1; }
+
+/* line 1021, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage {
+  line-height: 24px;
+  color: #000; }
+
+/* line 1025, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.ContentPart {
+  margin-bottom: 10px; }
+
+/* line 1028, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage h1 {
+  color: #383a40;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 35px;
+  margin-bottom: 20px; }
+
+/* line 1035, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage h2 {
+  color: #494949;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 25px; }
+
+/* line 1044, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage h3 {
+  color: #494949;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 25px; }
+
+/* line 1052, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage img {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/* line 1056, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage img[align="middle"] {
+  margin-right: auto;
+  margin-left: auto;
+  display: block; }
+
+/* line 1061, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.quotes img {
+  margin-top: 6px; }
+
+/* line 1064, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.imgBlog img {
+  margin-bottom: 20px;
+  display: block;
+  width: 100%; }
+
+/* line 1069, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.bottomh2Block {
+  font-size: 12px; }
+
+/* line 1072, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.bottomh2Block div.autor, div.DetailPage div.bottomh2Block div.date {
+  margin-right: 10px; }
+
+/* line 1075, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.bottomh2Block div.autor:before {
+  content: "";
+  display: block;
+  float: left;
+  margin-right: 6px;
+  margin-top: 2px;
+  background: url(/local/templates/Blog/./img/autor.gif) no-repeat;
+  background-size: 13px 14px;
+  width: 13px;
+  height: 14px; }
+
+/* line 1086, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.bottomh2Block div.date:before {
+  content: "";
+  display: block;
+  float: left;
+  margin-right: 6px;
+  margin-top: 4px;
+  background: url(/local/templates/Blog/./img/clock.gif) no-repeat;
+  background-size: 13px 13px;
+  width: 13px;
+  height: 13px; }
+
+/* line 1097, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.bottomh2Block div.rubric:before {
+  content: "";
+  display: block;
+  float: left;
+  margin-right: 6px;
+  margin-top: 4px;
+  background: url(/local/templates/Blog/./img/rubric.gif) no-repeat;
+  background-size: 10px 14px;
+  width: 10px;
+  height: 14px; }
+
+/* line 1108, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.ContentPart ul li {
+  position: relative;
+  margin-left: 15px; }
+
+/* line 1112, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.ContentPart ul li:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 10px;
+  left: -15px;
+  width: 5px;
+  height: 5px;
+  background: #6fa668; }
+
+/* line 1122, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.ContentPart ol {
+  counter-reset: list1; }
+
+/* line 1125, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.ContentPart ol li {
+  position: relative;
+  padding-left: 30px; }
+
+/* line 1129, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.ContentPart ol li:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0px;
+  left: 0px;
+  color: #6fa668;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: normal;
+  counter-increment: list1;
+  /* Увеличиваем значение счетчика */
+  content: counter(list1) ". "; }
+
+/* line 1142, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.ContentPart ol li ul li {
+  padding-left: 0px; }
+
+/* line 1145, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.ContentPart ol li ul li:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 10px;
+  left: -15px;
+  width: 5px;
+  height: 5px;
+  background: #6fa668; }
+
+/* line 1155, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.ContentPart ol.costum li.last:last-child:before {
+  content: "3. "; }
+
+/* line 1158, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.ContentPart ol.costum li:last-child ul li:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 10px;
+  left: -15px;
+  width: 5px;
+  height: 5px;
+  background: #6fa668; }
+
+/* line 1168, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.clear {
+  clear: both; }
+
+/* line 1171, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blogFooter {
+  line-height: 30px;
+  width: 100%;
+  position: absolute;
+  background: #3a3c42; }
+
+/* line 1177, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blogFooter .wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 1184, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blogFooter div.div470 {
+  width: 470px;
+  float: left; }
+
+/* line 1188, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blogFooter div.div470 .bMenu {
+  width: 45%;
+  margin-right: 5%;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+  border: 0px; }
+
+/* line 1195, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blogFooter div.div470 .bMenu tr td {
+  padding: 5px 10px;
+  margin-right: 10px; }
+
+/* line 1199, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blogFooter div.div470 .bMenu tr {
+  border-top: 1px solid rgba(255, 255, 255, 0.2); }
+
+/* line 1202, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blogFooter div.div470 .bMenu tr:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+
+/* line 1205, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blogFooter div.div470 .bMenu tr td a {
+  color: #FFF;
+  font-size: 14px;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 25px;
+  text-align: center; }
+
+/* line 1215, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blogFooter div.div470 .bMenu tr td.active, div.blogFooter div.div470 .bMenu tr td:hover {
+  background: #72ad6b; }
+
+/* line 1218, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul {
+  display: inline-block; }
+
+/* line 1221, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul li {
+  float: left;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block; }
+
+/* line 1228, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul li.activeTMItem {
+  background: #fff; }
+
+/* line 1231, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topMenu ul li a {
+  color: #fff;
+  text-decoration: none; }
+
+/* line 1235, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.search div.search-form {
+  position: relative; }
+
+/* line 1238, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.search div.search-form input[type="text"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 280px;
+  height: 30px;
+  border: none;
+  padding: 5px 12px;
+  padding-right: 30px; }
+
+/* line 1247, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.search div.search-form input[type=submit] {
+  background: url("/local/templates/Blog/img/searchB.gif") no-repeat;
+  border: none;
+  width: 24px;
+  height: 20px;
+  position: absolute;
+  right: 4px;
+  top: 4px; }
+
+/* line 1257, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Breadcrumbs {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px 0px; }
+
+/* line 1262, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Breadcrumbs ul {
+  margin-right: 12px;
+  padding: 0; }
+
+/* line 1266, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Breadcrumbs ul li:first-child a {
+  padding-left: 0; }
+
+/* line 1269, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Breadcrumbs ul li {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+/* line 1276, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Breadcrumbs ul li {
+  display: inline-block;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 4px; }
+
+/* line 1284, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Breadcrumbs ul li a {
+  display: block;
+  padding-right: 13px;
+  background: url(/local/templates/Blog/img/breadcrumbs_arrow.gif) no-repeat center right;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 14px; }
+
+/* line 1292, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Breadcrumbs ul li a:hover {
+  text-decoration: none; }
+
+/* line 1295, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.SocFix {
+  position: fixed;
+  margin-left: -46px;
+  overflow: hidden; }
+
+/* line 1300, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.SocFix .uptl_container-fixed-right, div.SocFix .uptl_container-fixed-left {
+  margin-top: 0px;
+  top: 0px; }
+
+/* line 1304, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.SocFix .uptl_container-fixed-left {
+  position: relative;
+  left: inherit;
+  height: 325px;
+  padding-top: 26px;
+  width: 40px;
+  background-position: 20px 0px; }
+
+/* line 1312, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.SocFix .uptl_container-fixed-left .uptl_toolbar_share ul {
+  background-color: #eaecef !important;
+  border-radius: 0px !important; }
+
+/* line 1316, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.SocFix div.Shadow {
+  position: absolute;
+  z-index: 100600;
+  top: 0px;
+  right: -6px;
+  height: 348px;
+  opacity: 0.8;
+  width: 28px;
+  background: url("/local/templates/Blog/img/shadow.png") no-repeat; }
+
+/* line 1326, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.quotes {
+  position: relative;
+  display: block;
+  color: #545454;
+  font-size: 14px;
+  font-style: italic;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+  width: 100%;
+  background: url("/local/templates/Blog/img/quotesBG.png") repeat;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 5px #ccc; }
+
+/* line 1341, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.quotes:before {
+  position: absolute;
+  content: "";
+  background: url("/local/templates/Blog/img/quotesbef.png") no-repeat;
+  display: block;
+  width: 13px;
+  height: 9px;
+  top: 14px;
+  left: 11px; }
+
+/* line 1352, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.quotes:after {
+  position: absolute;
+  content: "";
+  background: url("/local/templates/Blog/img/quotesaft.png") no-repeat;
+  display: block;
+  width: 13px;
+  height: 9px;
+  bottom: 14px;
+  right: 11px; }
+
+/* line 1362, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.quotesw {
+  position: relative;
+  display: block;
+  color: #545454;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding: 24px 28px;
+  background: url("/local/templates/Blog/img/quotesBG.png") repeat;
+  box-shadow: 4px 4px 5px #ccc; }
+
+/* line 1374, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.quote-owl {
+  position: relative;
+  display: block;
+  color: #545454;
+  font-size: 14px;
+  border: 3px solid rgba(96, 98, 106, 0.74);
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  margin: 40px 0 20px 100px;
+  padding: 24px 28px;
+  background: white; }
+
+/* line 1387, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage div.quote-owl:before {
+  content: url(/local/templates/Blog/./img/icon-owl.png);
+  position: absolute;
+  left: -90px;
+  top: -35px; }
+
+/* line 1399, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.reating {
+  border-bottom: 1px solid #ececec;
+  border-top: 1px solid #ececec;
+  padding: 20px 20px;
+  margin-bottom: 20px; }
+
+/* line 1405, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.reating p strong {
+  font-size: 14px;
+  display: block;
+  font-weight: bold;
+  color: #545454;
+  margin-bottom: 5px; }
+
+/* line 1412, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.nameRes {
+  position: relative;
+  top: -5px;
+  margin-right: 8px; }
+
+/* line 1417, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.nameRes, div.resultBlog {
+  display: inline-block; }
+
+/* line 1420, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock {
+  overflow: auto;
+  padding: 0px 35px; }
+
+/* line 1424, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.TexareaBlock, div.FormBlock div.TexareaBlock textarea, div.FormBlock div.leftpart div.FormBlock input, div.FormBlock div.rightpart {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 1429, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.TexareaBlock label, div.FormBlock div.InputBlock label {
+  display: block;
+  color: #383a40;
+  font-size: 14px;
+  margin-bottom: 5px;
+  float: none;
+  width: 100%;
+  line-height: normal; }
+
+/* line 1438, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.TexareaBlock label span, div.FormBlock div.InputBlock label span {
+  color: #6fa668;
+  font-size: 20px; }
+
+/* line 1442, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.TexareaBlock textarea {
+  padding: 5px 10px;
+  display: block;
+  resize: none;
+  width: 100%;
+  height: 75px;
+  border: none; }
+
+/* line 1450, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.InputBlock input {
+  height: 38px;
+  width: 100%;
+  padding: 10px 10px;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 1459, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.InputBlock input.error, div.FormBlock textarea.error {
+  border: 1px #f00 solid !important; }
+
+/* line 1462, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock input[type=submit] {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  background: #6fa668;
+  color: #fff;
+  font-size: 14px;
+  text-transform: lowercase;
+  margin-bottom: 17px; }
+
+/* line 1473, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock input[type=submit]:hover {
+  background: #52794D; }
+
+/* line 1475, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.leftpart {
+  float: left;
+  padding-right: 0px;
+  padding-left: 0px; }
+
+/* line 1480, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.rightpart {
+  float: right; }
+
+/* line 1483, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.leftpart, div.FormBlock div.rightpart {
+  width: 46%; }
+
+/* line 1486, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.TexareaBlock {
+  margin-bottom: 10px; }
+
+/* line 1489, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.InputBlock {
+  margin-bottom: 17px;
+  width: 100%; }
+
+/* line 1493, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.InputBlock div.fileform {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  margin-top: 41px; }
+
+/* line 1500, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.InputBlock div.fileform div.selectbutton {
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #6fa668;
+  color: #6fa668;
+  font-size: 17px;
+  height: 38px;
+  overflow: hidden;
+  padding: 4px 6px;
+  text-align: center;
+  margin-bottom: 17px;
+  font-weight: bold;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 1516, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.topAuthForm input.topFormUserSubmit:hover {
+  background: #466F41; }
+
+/* line 1519, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.InputBlock div.fileform div.selectbutton span {
+  position: absolute;
+  top: 4px;
+  left: 11px;
+  font-size: 26px; }
+
+/* line 1525, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.InputBlock div.fileform #upload {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  height: 38px;
+  z-index: 20;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 1538, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.InputBlock div.fileform .fileformlabel {
+  position: relative;
+  color: #2e2e2e;
+  font-size: 14px;
+  font-weight: bold;
+  display: table; }
+
+/* line 1545, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.InputBlock div.fileform .fileformlabel:after {
+  position: absolute;
+  content: "×";
+  display: block;
+  width: 12px;
+  height: 10px;
+  color: #000;
+  line-height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  top: 10px;
+  right: -17px; }
+
+/* line 1558, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.Important {
+  color: #737373;
+  font-size: 12px; }
+
+/* line 1562, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.Important span, div.FormBlock div.Important p {
+  display: inline-block; }
+
+/* line 1565, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.Important p {
+  position: relative;
+  top: -5px; }
+
+/* line 1570, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.FormBlock div.Important span {
+  color: #6fa668;
+  font-size: 20px;
+  margin-right: 4px; }
+
+/* line 1575, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.subcrib {
+  margin-top: 20px;
+  background: #78a4bb url(/local/templates/Blog/./img/rssimg2.png) no-repeat;
+  background-position: 20px 20px;
+  padding: 15px 20px;
+  padding-left: 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 105px; }
+
+/* line 1586, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.subcrib p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px; }
+
+/* line 1592, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.subcrib input[type=text] {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  min-width: 150px;
+  height: 35px;
+  padding: 5px 15px;
+  margin-right: 10px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 1604, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.subcrib input[type=submit] {
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  height: 35px;
+  width: 200px;
+  padding: 8px 10px;
+  background: #cb3343;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 1619, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.subcrib input[type=submit].hidden {
+  opacity: 0; }
+
+/* line 1622, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.subcrib input[type=submit]:hover {
+  background: #8C0715; }
+
+/* line 1625, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0px; }
+
+/* line 1630, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage table tr td {
+  padding: 5px 5px;
+  border: 1px solid rgba(111, 166, 104, 0.3) !important; }
+
+/* line 1634, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage table tr:nth-child(odd) {
+  background: rgba(239, 243, 237, 0.49); }
+
+/* line 1637, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage table tr:nth-child(even) {
+  background: rgba(111, 166, 104, 0.15); }
+
+/* line 1640, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.successSended div.container {
+  background: #fff url(/local/templates/Blog/./img/32131.png) no-repeat;
+  padding-left: 135px;
+  background-position: 26px 19px; }
+
+/* line 1645, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage table.img tr {
+  background: #fff; }
+
+/* line 1648, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.DetailPage table.img tr td {
+  padding: 5px 15px;
+  width: 50%; }
+
+/* line 1652, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.ui-widget-overlay {
+  z-index: 102; }
+
+/* line 1655, C:/Users/guban/Documents/askusers_blog/styles.scss */
+.successSended {
+  z-index: 103; }
+
+/* line 1658, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Breadcrumbs .wrapper {
+  padding: 0px 15px; }
+
+/* line 1661, C:/Users/guban/Documents/askusers_blog/styles.scss */
+p.frind {
+  color: #bababa;
+  font-size: 14px;
+  padding-top: 10px; }
+
+/* line 1666, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.searchpage span.h2 {
+  display: block;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 20px; }
+
+/* line 1672, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.searchpage input[type="text"] {
+  margin-bottom: 20px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+  border: none;
+  padding: 5px 12px; }
+
+/* line 1680, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.searchpage input[type="submit"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #6fa668;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer; }
+
+/* line 1691, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.searchpage input[type="submit"]:hover {
+  background: #547B4F; }
+
+/* line 1694, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blockVoise {
+  padding: 20px 20px;
+  background: #f0f0f0;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 5px #ccc; }
+
+/* line 1700, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blockVoise div.leftpart {
+  width: 200px; }
+
+/* line 1703, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blockVoise div.leftpart div.img {
+  background: url(/local/templates/askusers/img/man.png) no-repeat;
+  background-position: 50% 50%;
+  text-align: center;
+  width: 200px;
+  min-height: 175px; }
+
+/* line 1710, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blockVoise div.leftpart div.img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 200px; }
+
+/* line 1718, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blockVoise div.rightpart {
+  float: none;
+  width: auto;
+  padding-left: 217px; }
+
+/* line 1723, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blockVoise div.rightpart div.text {
+  font-size: 14px;
+  font-style: italic;
+  color: #3d3d3d;
+  padding: 20px 0px; }
+
+/* line 1729, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blockVoise div.rightpart span.autor {
+  font-size: 18px;
+  font-weight: bold;
+  color: #343434; }
+
+/* line 1734, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.blockVoise div.rightpart p.web {
+  color: #343434;
+  font-size: 14px; }
+
+/* line 1738, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.teamVoite {
+  margin-bottom: 20px; }
+
+/* line 1741, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a.Bottom {
+  position: relative;
+  text-decoration: none;
+  text-align: left;
+  padding: 35px 35px;
+  padding-left: 116px;
+  border: none;
+  display: block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 315px;
+  height: 100px;
+  font-size: 24px;
+  background-color: #efefef;
+  background-image: -moz-linear-gradient(top, #efefef 0%, #e2e2e2 100%);
+  background-image: -webkit-linear-gradient(top, #efefef 0%, #e2e2e2 100%);
+  background-image: -o-linear-gradient(top, #efefef 0%, #e2e2e2 100%);
+  background-image: -ms-linear-gradient(top, #efefef 0%, #e2e2e2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#e2e2e2',GradientType=0 );
+  background-image: linear-gradient(top, #efefef 0%, #e2e2e2 100%);
+  -webkit-box-shadow: 0px 2px 1px #c0c0c0;
+  -moz-box-shadow: 0px 2px 1px #c0c0c0;
+  box-shadow: 0px 2px 1px #c0c0c0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 20px; }
+
+/* line 1770, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a.Bottom.Ok {
+  color: #79b172; }
+
+/* line 1773, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a.Bottom.Ok:before, a.Bottom.bad:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 60px;
+  top: 20px;
+  left: 30px; }
+
+/* line 1782, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a.Bottom.Ok:before {
+  background: url(/local/templates/Blog/./img/okimgb.png) no-repeat; }
+
+/* line 1785, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a.Bottom.bad:before {
+  background: url(/local/templates/Blog/./img/badimgb.png) no-repeat; }
+
+/* line 1788, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a.Bottom.bad {
+  color: #c1233d; }
+
+/* line 1791, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a.Bottom.Ok:hover {
+  color: #fff;
+  background-color: #80b579;
+  background-image: -moz-linear-gradient(top, #80b579 0%, #73a86c 100%);
+  background-image: -webkit-linear-gradient(top, #80b579 0%, #73a86c 100%);
+  background-image: -o-linear-gradient(top, #80b579 0%, #73a86c 100%);
+  background-image: -ms-linear-gradient(top, #80b579 0%, #73a86c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73a86c', endColorstr='#73a86c',GradientType=0 );
+  background-image: linear-gradient(top, #80b579 0%, #73a86c 100%);
+  -webkit-box-shadow: 0px 2px 1px #5e9159;
+  -moz-box-shadow: 0px 2px 1px #5e9159;
+  box-shadow: 0px 2px 1px #5e9159; }
+
+/* line 1804, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a.Bottom.Ok:hover:before {
+  background-position: 0px -61px; }
+
+/* line 1807, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a.Bottom.bad:hover {
+  color: #FFF;
+  background-color: #c42e47;
+  background-image: -moz-linear-gradient(top, #c42e47 0%, #b7213a 100%);
+  background-image: -webkit-linear-gradient(top, #c42e47 0%, #b7213a 100%);
+  background-image: -o-linear-gradient(top, #c42e47 0%, #b7213a 100%);
+  background-image: -ms-linear-gradient(top, #c42e47 0%, #b7213a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b7213a', endColorstr='#b7213a', GradientType=0);
+  background-image: linear-gradient(top, #c42e47 0%, #b7213a 100%);
+  -webkit-box-shadow: 0px 2px 1px #93162b;
+  -moz-box-shadow: 0px 2px 1px #93162b;
+  box-shadow: 0px 2px 1px #93162b; }
+
+/* line 1820, C:/Users/guban/Documents/askusers_blog/styles.scss */
+a.Bottom.bad:hover:before {
+  background-position: 0px -61px; }
+
+/* line 1823, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.teamVoite a.Bottom.bad {
+  float: right; }
+
+/* line 1826, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.teamVoite a.Bottom.Ok {
+  float: left; }
+
+/* line 1829, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.resultVoite {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fbfcf2;
+  padding: 20px 20px;
+  box-shadow: 4px 4px 5px #ccc; }
+
+/* line 1836, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.resultVoite div.someInfo {
+  text-align: center;
+  font-size: 14px;
+  color: #3a3c42; }
+
+/* line 1841, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.resultVoite div.someInfo span.h2 {
+  color: #79b172;
+  font-size: 24px;
+  font-weight: bold; }
+
+/* line 1846, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.resultNumber div.Result {
+  position: relative;
+  text-align: left;
+  padding: 35px 0px;
+  padding-left: 85px;
+  font-size: 18px;
+  color: #3a3c42;
+  font-weight: bold; }
+
+/* line 1855, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Result.Ok:before, div.Result.Bad:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 60px;
+  top: 20px;
+  left: 0px; }
+
+/* line 1864, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Result.Ok:before {
+  background: url(/local/templates/Blog/./img/okimgb.png) no-repeat; }
+
+/* line 1867, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.Result.Bad:before {
+  background: url(/local/templates/Blog/./img/badimgb.png) no-repeat; }
+
+/* line 1870, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.resultNumber div.Result span {
+  font-size: 30px; }
+
+/* line 1873, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.resultNumber div.Result.Ok {
+  float: left; }
+
+/* line 1876, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.resultNumber div.Result.Ok span {
+  color: #79b172; }
+
+/* line 1879, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.resultNumber div.Result.Bad {
+  float: right; }
+
+/* line 1882, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.resultNumber div.Result.Bad span {
+  color: #c1233d; }
+
+/* line 1886, C:/Users/guban/Documents/askusers_blog/styles.scss */
+div.subcrib.animation {
+  overflow: hidden; }
+
+@media screen and (max-width: 1023px) {
+  /* line 1933, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  p.frind {
+    display: none; }
+  /* line 1936, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  body {
+    font-size: 16px;
+    min-width: 100%; }
+  /* line 1941, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.BoxBlog div.InfoBlock {
+    clear: both; }
+  /* line 1945, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.moreread {
+    position: inherit;
+    bottom: inherit;
+    height: inherit;
+    right: inherit; }
+  /* line 1951, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  .header {
+    height: auto;
+    width: 100%;
+    padding-bottom: 5px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  /* line 1958, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  .logotype {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 119px; }
+  /* line 1965, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  .topAuthForm {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    float: none; }
+  /* line 1971, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  .topMenu {
+    float: none;
+    height: auto;
+    text-align: center;
+    padding-left: 0px;
+    position: inherit; }
+  /* line 1978, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  .topMenu ul {
+    display: block; }
+  /* line 1981, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  .topMenu ul li {
+    float: none;
+    display: block;
+    font-size: 18px;
+    height: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); }
+  /* line 1988, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  .topMenu ul li a {
+    display: block;
+    width: 100%;
+    padding: 5px 0px; }
+  /* line 1993, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  .topMenu ul li:last-child a {
+    border-top: none;
+    padding-bottom: 0px; }
+  /* line 1998, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.Breadcrumbs ul li a, div.Breadcrumbs ul li {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  /* line 2004, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.blogFooter .wrapper {
+    padding: 40px 15px; }
+  /* line 2007, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.blogFooter div.div470 {
+    width: auto; }
+  /* line 2010, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.pager {
+    float: none;
+    display: table;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 2016, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.BlogContent div.leftpart {
+    width: 100%;
+    float: none; }
+  /* line 2020, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.Blog div.rightpart {
+    float: none;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto; }
+  /* line 2026, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.blockVoise div.leftpart {
+    float: left;
+    width: 200px; }
+  /* line 2030, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.blockVoise div.rightpart {
+    float: none;
+    width: auto;
+    padding-left: 217px; }
+  /* line 2035, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.Blog div.rightpart div.rss2, div.Blog div.rightpart div.vk {
+    margin-right: 0px; }
+  /* line 2038, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.Blog div.rightpart div.vk, div.Blog div.rightpart div.rss {
+    float: none;
+    width: 100%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 2045, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.Blog div.rightpart div.rss2, div.Blog div.rightpart div.popular {
+    float: none;
+    width: 100%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 2052, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.Blog div.rightpart div.listRubric {
+    float: none;
+    width: 100%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 2059, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.rss2 input[type=submit] {
+    margin-right: auto;
+    margin-left: auto; }
+  /* line 2063, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.rss2 input[type=text] {
+    width: 100%; }
+  /* line 2066, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.BoxBlog div.leftBlock {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    height: 130px;
+    margin-bottom: 20px; }
+  /* line 2073, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.BoxBlog div.InfoBlock {
+    padding-left: 0px; }
+  /* line 2077, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.moreread {
+    margin-bottom: 20px; }
+  /* line 2080, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.blogFooter div.div470 .bMenu {
+    width: 100%;
+    display: block; }
+  /* line 2084, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.subcrib {
+    height: auto; }
+  /* line 2087, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.subcrib input[type=text] {
+    margin-bottom: 20px; }
+  div.subcrib input[type=submit] {
+      max-width: 100%; }
+  /* line 2090, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.search div.search-form input[type="text"] {
+    width: 100%; }
+  /* line 2093, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.Blog div.rightpart div.search {
+    width: 100%; }
+  /* line 2096, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.BoxBlog div.leftBlock div.previmg {
+    float: left;
+    margin-right: 20px; }
+  /* line 2100, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.nameRes, div.resultBlog {
+    display: block !important; }
+  /* line 2103, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.InfoBlockpodimg {
+    padding-left: 170px;
+    padding-top: 25px; }
+  /* line 2107, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.Blog div.rightpart div.rss a.tryReg {
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 2111, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.DetailPage h1 {
+    line-height: 38px;
+    font-size: 35px; }
+  /* line 2115, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  .bx_sitemap .bx_sitemap_li_title a {
+    font-size: 17px; }
+  /* line 2118, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  .content {
+    padding-bottom: 10px; }
+  /* line 2121, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.blogFooter div.div470 .bMenu {
+    margin-bottom: 0px !important;
+    display: table;
+    width: 100%;
+    margin-right: auto !important;
+    margin-left: auto !important; }
+  /* line 2128, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.blogFooter div.div470 .bMenu tr td {
+    padding: 0px 10px; }
+  /* line 2131, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.blogFooter div.div470 .bMenu tr:last-child {
+    border-bottom: none; }
+  /* line 2134, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.blogFooter div.div470 .bMenu tr td a {
+    display: block;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 18px; }
+  /* line 2140, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.SocFix {
+    position: relative; }
+  /* line 2143, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div#vk_groups {
+    display: none !important; } }
+
+@media screen and (max-width: 600px) {
+  /* line 2148, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.resultNumber div.Result.Ok {
+    float: none !important;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    min-width: 174px; }
+  /* line 2155, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.resultNumber div.Result.Bad {
+    float: none !important;
+    margin-right: auto;
+    margin-left: auto;
+    display: table; } }
+
+@media screen and (max-width: 700px) {
+  /* line 2163, C:/Users/guban/Documents/askusers_blog/styles.scss */
+  div.teamVoite a.Bottom {
+    float: none !important;
+    margin-right: auto;
+    margin-left: auto; } }
+
+div.cols {
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin-top: -30px; }
+  div.cols > div {
+    flex-basis: 32%; }
+  div.cols a {
+    display: block;
+    color: #42424a;
+    text-decoration: none;
+    font-weight: 600; }
+    div.cols a:hover {
+      color: #6ea665; }
+    div.cols a._orange:hover {
+      color: #ffbe10; }
+    div.cols a._red:hover {
+      color: #cb3343; }
+    div.cols a span {
+      display: inline-block;
+      margin-right: 5px;
+      color: #6ea665; }
+      div.cols a span._orange {
+        color: #ffbe10; }
+      div.cols a span._red {
+        color: #cb3343; }
+
+img.icon-img {
+  position: relative;
+  bottom: -15px;
+  margin-left: 5px; }
+
+div.DetailPage h2 img {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+@media screen and (max-width: 480px) {
+  div.cols > div {
+    flex-basis: 100%; }
+  img.icon-img {
+    position: relative;
+    bottom: -10px; } }
+
+span.online {
+  display: inline-block;
+  background: #6ea665;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 24px; }
+
+span.offline {
+  display: inline-block;
+  background: #42424a;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 24px; }
+
+/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=styles.css.map */
+/* End */
+/* /local/templates/Blog/components/bitrix/system.auth.form/askUsers/style.css?14327208631094 */
+/* /local/templates/Blog/components/bitrix/menu/blogTop/style.css?1432721687626 */
+/* /local/templates/Blog/components/bitrix/breadcrumb/Blogbreadcrumb/style.css?1432723748947 */
+/* /local/templates/Blog/components/askusers/main.register/.default/style.css?146847652111976 */
+/* /local/templates/Blog/styles.css?148070504872073 */
